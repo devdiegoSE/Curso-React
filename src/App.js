@@ -1,11 +1,15 @@
 import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
 
   return (
     <div className="App">
+      <h1>Olá, mundo!</h1>
+      <Frase />
+      <Frase />
       <SayMyName name="João" />
       <SayMyName name="Maria" />
       <Pessoa nome="João" idade="35" profissao="Desenvolvedor" foto="https://placehold.co/100" />
